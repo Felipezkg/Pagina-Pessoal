@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 50%;
+    font-size: 2ch;
+    font-style: italic;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 1px #ff7300;
+}
+
+.git-icon {
+    margin: 2%;
+    width: 3%;
+    height: 3%;
+    color: #ff7300;
+    cursor: pointer;
+    transform: translateY(0, 0);
+    transition: 0.2s;
+}
+
+.git-icon:hover,
+.git-icon:focus {
+    transform: translateY(-8px) scale(1);
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        width: 80%;
+        margin-bottom: 3%;
+        margin-top: 15%;
+    }
+
+    .git-icon {
+        width: 9%;
+        height: 9%;
+    }
+}

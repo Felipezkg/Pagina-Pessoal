@@ -1,0 +1,80 @@
+.form-box {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 50%;
+    font-size: 2ch;
+    font-style: italic;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 1px #ff7300;
+    flex-direction: column;
+
+}
+
+.input-box {
+    display: flex;
+    width: 30%;
+    align-self: center;
+    margin-top: 1%;
+}
+
+.input-box-msg {
+    display: flex;
+    width: 30%;
+    height: 200px;
+    align-self: center;
+    margin-top: 1%;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonSubmit {
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff8000;
+    padding: 10px 30px;
+    max-width: 80%;
+    align-self: center;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 50px;
+    transition: 1s;
+    transform: translateY(0);
+}
+
+.buttonSubmit:hover {
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    .form-box {
+        width: 80%;
+        margin-bottom: 3%;
+        margin-top: 15%;
+    }
+
+    .input-box {
+        width: 60%;
+    }
+
+    .input-box-msg {
+        width: 60%;
+    }
+
+    .buttonSubmit {
+        margin-bottom: 5%;
+    }
+
+}
